@@ -24,7 +24,8 @@ Key Features;
 ## Setup
 1. In Arduino IDE, go to **File > Preferences**
 2. Enter the following into the *Additional Board Manager URLs* field:
-`https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json'`3. Open the Boards Manager. Go to **Tools > Board > Boards Manager…**
+`https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
+3. Open the Boards Manager. Go to **Tools > Board > Boards Manager…**
 4. Search for ESP32 and press install button for the “ESP32 by Espressif Systems“:
 5. Navigate to Demo and open Demo.ino.
 6. In the Arduino IDE and select **Tools > Board > ESP32 Arduino > UM TinyPICO**
