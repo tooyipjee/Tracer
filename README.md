@@ -18,7 +18,7 @@ Key Features;
 - Leverage the [LSM6DSL](https://www.st.com/en/mems-and-sensors/lsm6dsl.html) to track your objects in real-time.
 - Easy mounting using high quality velcro straps that allow the unit to be mounted on a wide variety of objects from your bicycle to track lean angles to an tennis racquet for pose insights.
 - On-board Li-ion battery charging using the TP4065.
-- 5 hours battery life at maximum sample rate of 100 Hz.
+- Battery Life - 3 hours of continuous streaming over BLE at 10Hz
 - 30m BLE range (unobstructed)
 
 ## Setup
@@ -62,7 +62,10 @@ The real-time plots from the IMU is streamed over BLE to the phone. Data can lat
     * 1D Gesture Recognition
 * Li-ion Battery Management | TP4065
 * Power | 700mA 3.3V LDO
-* Mounting Options | Velcro Strap or 3x M.2.Screws
+* Mechanical
+    * Weight | 20g, including velcro strap
+    * Dimensions | 4.2 x 3.6 cm
+    * Mounting Options | Velcro Strap or 3x M.2.Screws
 
 ## License
 
