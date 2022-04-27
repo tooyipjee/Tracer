@@ -57,7 +57,7 @@ The real-time plots from the IMU is streamed over BLE to the phone. Data can lat
 * Inertial Measurement Unit (IMU) | [LSM6DSLTR](https://www.st.com/en/mems-and-sensors/lsm6dsl.html)
     * Accelerometer | ±2/±4/±8/±16 g at 1.6 Hz to 6.7KHz
     * Gyroscope | ±125/±250/±500/±1000/±2000 dps at 12.5 Hz to 6.7 KHz
-* Time-of-Flight (TOF) | [VL53L0X](https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html)
+* Time-of-Flight (TOF) | [VL53L0X](https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html) (Swappable to VL53L1X)
     * Range | Up to 2m
     * 1D Gesture Recognition
 * Li-ion Battery Management | TP4065
