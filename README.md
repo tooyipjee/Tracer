@@ -6,7 +6,7 @@
  This repository contains the following content;
  - Schematic
  - Example code to get started with streaming data over Bluetooth (BLE) to your smartphone via [Phyphox](https://github.com/phyphox)
- - 3D Visualisation via Processing
+ - Sketches to train and run your own Edge Impulse Classifier
  
  ## What is it
 Have you ever wanted to just stick an IMU on a thing to trace its pose and motion?
@@ -18,8 +18,10 @@ Key Features;
 - Leverage the [LSM6DSL](https://www.st.com/en/mems-and-sensors/lsm6dsl.html) to track your objects in real-time.
 - Easy mounting using high quality velcro straps that allow the unit to be mounted on a wide variety of objects from your bicycle to track lean angles to an tennis racquet for pose insights.
 - On-board Li-ion battery charging using the TP4065.
-- Battery Life - 3 hours of continuous streaming over BLE at 10Hz.
+- Battery Life - 2.5 hours of continuous streaming over BLE at 10Hz.
 - 15m BLE range (unobstructed) - tested on a tennis court
+
+**Available to buy on [Tindie](https://www.tindie.com/products/elektrothing/tracer/)**
 
 ## Setup
 1. In Arduino IDE, go to **File > Preferences**
@@ -40,13 +42,23 @@ The example code used to test this design involves close integration with the [M
 <p align="center">
 <img src="./images/demo.gif" width="250" height="250"/>
 </p>
-This 3D visualisation is by streaming data over UART to a simple script that was written on [Processing](https://github.com/processing).
+This 3D visualisation is by streaming data over UART to a simple script that was written on [Processing](https://github.com/processing). Video here; https://www.youtube.com/watch?v=f6d10yX7fZ4
+
 
 ### Stream real-time data to phyphox 
 <p align="center">
 <img src="./images/phyphox.gif" width="250" height="560"/>
 </p>
-The real-time plots from the IMU is streamed over BLE to the phone. Data can later be exported over CSV for further analysis if required. Phyphox is also capable of performing DSP which should offload any energy intensive computation from the ESP32.
+The real-time plots from the IMU is streamed over BLE to the phone. Data can later be exported over CSV for further analysis if required. Phyphox is also capable of performing DSP which should offload any energy intensive computation from the ESP32. Video here; https://www.youtube.com/watch?v=yR44qc0SaZ0.
+
+### Real-time gesture recognition using Edge Impulse
+
+[![Real-time gesture recognition using Edge Impulse](https://img.youtube.com/vi/aU7HlFeuip4/0.jpg)](https://www.youtube.com/watch?v=aU7HlFeuip4)
+
+This example illustrates the Tracer's ability to be highly customizable to suit a wide variety of applications and specifications. Using the Edge Impulse platform, I was able to train a neural network that would then run on the ESP32 natively to track a certain gesture or activity. More details on this [here](https://hackaday.io/project/184499-tracer-a-wearable-for-things/log/206167-using-edge-impulse-with-tracer-to-build-your-own-custom-gestureactivity-tracker).
+
+
+
 
 ## Specification
 * Microcontroller | [ESP32-PICO-D4](https://www.espressif.com/en/producttype/esp32-pico-d4)
