@@ -2,7 +2,7 @@
 timeOfFlight.h
 VL53L0X  wrapper
 
-Jason Too
+elektrothing
 April 20, 2022
 
 This code is released under the [MIT License](http://opensource.org/licenses/MIT).

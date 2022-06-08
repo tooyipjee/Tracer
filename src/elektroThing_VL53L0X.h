@@ -2,7 +2,7 @@
 elektroThing_VL53L0X.h
 VL53L0X driver for Tracer platform 
 
-Jason Too
+elektrothing
 March 25, 2022
 
 This code is released under the [MIT License](http://opensource.org/licenses/MIT).

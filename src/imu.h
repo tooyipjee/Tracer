@@ -2,7 +2,7 @@
 imu.h
 LSM6DSL  wrapper
 
-Jason Too
+elektrothing
 March 25, 2022
 
 This code is released under the [MIT License](http://opensource.org/licenses/MIT).
