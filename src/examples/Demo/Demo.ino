@@ -1,5 +1,5 @@
 #include <imu.h>
-#include "bluetooth.h"
+#include <bluetooth.h>
 #include <phyphoxBle.h>
 #include <MadgwickAHRS.h>
 
@@ -84,16 +84,11 @@ void loop()
 
        Ping data only when hit event has occured - 500ms to track what is happening after hit
     */
-//    if (!timedOut)
-//    {
-      ble.update(absolute_a, ax, az, count);
+   if (!timedOut)
+   {
+    ble.update(ax, ay, az, count);
+   }
 
-      //      Serial.println("Sending data");
-//    }
-
-    //    /* Serial output for Processing script and debug
-    //     *  - set update rate to 25 Hz
-    //    */
     t_1 = millis();
 
     // Check if value is not negative - update rate is achievable

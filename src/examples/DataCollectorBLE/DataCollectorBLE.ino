@@ -1,6 +1,6 @@
 #include <imu.h>
 #include <timeOfFlight.h>
-#include "bluetooth.h" 
+#include <bluetooth.h> 
 float updateRate = 100; //in Hz
 int t_0;
 int t_1;
@@ -42,12 +42,6 @@ void loop()
 
 
   ble.update(ax,ay,az,gx,gy);
-//  Serial.print(ax); Serial.print(",");
-//  Serial.print(ay); Serial.print(",");
-//  Serial.print(az); Serial.print(",");
-//  Serial.print(gx); Serial.print(",");
-//  Serial.print(gy); Serial.print(",");
-//  Serial.println(gz);
 
   t_1 = millis();
 
