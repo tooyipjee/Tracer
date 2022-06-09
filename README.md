@@ -39,6 +39,9 @@ Key Features;
     * [**SparkFun VL53L1X 4m Laser Distance Sensor**](https://www.arduino.cc/reference/en/libraries/sparkfun-vl53l1x-4m-laser-distance-sensor/)
 11. **Upload** the Demo code to the Tracer. While that is being done, download Phyphox on the App Store or Play Store.
 12. When the upload is done, search for the device via Bluetooth on Phyphox and you should see "Tracer" appear. Click on that and you should have access to the data, plots and ability to export the data to Excel/CSV.
+13. To run TennisDemo or CyclingDemo, you will need to install download the Edge Impulse libraries and add them to your IDE. 
+    * Tennis Demo - https://studio.edgeimpulse.com/public/102310/latest
+    * Cycling Demo - https://studio.edgeimpulse.com/public/67041/latest
 
 ## Examples
 The example code used to test this design involves close integration with the [Madgwick Filter](https://ahrs.readthedocs.io/en/latest/filters/madgwick.html). Using that filter to perform sensor fusion and generate an estimate for heading, roll and pitch, the data can then be relayed to a smartphone or PC for post processing. See below for two example
