@@ -44,7 +44,7 @@ void setup() {
   pinMode(35, INPUT); //  Set battery voltage monitoring
   myIMU.init();
   //  myTOF.init();
-  ble.init(dataCollector);
+  ble.init();
 }
 
 /**
