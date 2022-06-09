@@ -32,8 +32,13 @@ Key Features;
 5. Navigate to Demo and open Demo.ino.
 6. In the Arduino IDE and select **Tools > Board > ESP32 Arduino > UM TinyPICO**
 7. Then select **Tools > PSRAM > Disabled**
-8. **Upload** the Demo code to the Tracer. While that is being done, download Phyphox on the App Store or Play Store.
-9. When the upload is done, search for the device via Bluetooth on Phyphox and you should see "Tracer" appear. Click on that and you should have access to the data, plots and ability to export the data to Excel/CSV.
+8. Install the Tracer library by downloading this repo as a .ZIP and adding it via the Arduino IDE. 
+9. Navigate to **Sketch > Include Library > Add .ZIP Library...** and select on the downloaded file (above).
+10. Now install third party libraries, you will need;
+    * [**phyphox BLE**](https://www.arduino.cc/reference/en/libraries/phyphox-ble/)
+    * [**SparkFun VL53L1X 4m Laser Distance Sensor**](https://www.arduino.cc/reference/en/libraries/sparkfun-vl53l1x-4m-laser-distance-sensor/)
+11. **Upload** the Demo code to the Tracer. While that is being done, download Phyphox on the App Store or Play Store.
+12. When the upload is done, search for the device via Bluetooth on Phyphox and you should see "Tracer" appear. Click on that and you should have access to the data, plots and ability to export the data to Excel/CSV.
 
 ## Examples
 The example code used to test this design involves close integration with the [Madgwick Filter](https://ahrs.readthedocs.io/en/latest/filters/madgwick.html). Using that filter to perform sensor fusion and generate an estimate for heading, roll and pitch, the data can then be relayed to a smartphone or PC for post processing. See below for two example
