@@ -4,7 +4,7 @@
 float updateRate = 100; //in Hz
 int t_0;
 int t_1;
-float ax, ay, az, gx, gy, gz;
+float ax,ay, az, gx, gy, gz;
 int distanceToF;
 
 Bluetooth ble;
@@ -19,7 +19,6 @@ void setup() {
   myTOF.init(1);
   ble.init();
 
-  Serial.println("d,ax,ay,az,gx,gy,gz");
 }
 
 
