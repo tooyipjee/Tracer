@@ -29,17 +29,17 @@ Key Features;
 `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
 3. Open the Boards Manager. Go to **Tools > Board > Boards Manager…**
 4. Search for ESP32 and press install button for the “ESP32 by Espressif Systems“:
-5. Navigate to Demo and open Demo.ino.
-6. In the Arduino IDE and select **Tools > Board > ESP32 Arduino > UM TinyPICO**
-7. Then select **Tools > PSRAM > Disabled**
-8. Install the Tracer library by downloading this repo as a .ZIP and adding it via the Arduino IDE. 
-9. Navigate to **Sketch > Include Library > Add .ZIP Library...** and select on the downloaded file (above).
-10. Now install third party libraries, you will need;
+5. In the Arduino IDE and select **Tools > Board > ESP32 Arduino > UM TinyPICO**
+6. Then select **Tools > PSRAM > Disabled**
+7. Install the Tracer library by downloading this repo as a .ZIP and adding it via the Arduino IDE. 
+8. Navigate to **Sketch > Include Library > Add .ZIP Library...** and select on the downloaded file (above).
+9. Now install third party libraries, you will need;
     * [**phyphox BLE**](https://www.arduino.cc/reference/en/libraries/phyphox-ble/)
     * [**SparkFun VL53L1X 4m Laser Distance Sensor**](https://www.arduino.cc/reference/en/libraries/sparkfun-vl53l1x-4m-laser-distance-sensor/)
-11. **Upload** the Demo code to the Tracer. While that is being done, download Phyphox on the App Store or Play Store.
-12. When the upload is done, search for the device via Bluetooth on Phyphox and you should see "Tracer" appear. Click on that and you should have access to the data, plots and ability to export the data to Excel/CSV.
-13. To run TennisDemo or CyclingDemo, you will need to install download the Edge Impulse libraries and add them to your IDE. 
+    * [**Madgwick AHRS**](https://www.arduino.cc/reference/en/libraries/madgwick/)
+10. **Upload** the DataCollectorBLE example code to the Tracer. While that is being done, download Phyphox on the App Store or Play Store.
+11. When the upload is done, search for the device via Bluetooth on Phyphox and you should see "Tracer" appear. Click on that and you should have access to the data, plots and ability to export the data to Excel/CSV.
+12. To run TennisDemo or CyclingDemo, you will need to install download the Edge Impulse libraries and add them to your IDE. 
     * Tennis Demo - https://studio.edgeimpulse.com/public/102310/latest
     * Cycling Demo - https://studio.edgeimpulse.com/public/67041/latest
 
