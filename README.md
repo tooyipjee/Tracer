@@ -1,7 +1,8 @@
 # Tracer: A Wearable for Things 🚀
 
-![Suggested Photo: A close-up of the Tracer device showcasing its components.](photo_link_here)
-
+<p align="center">
+<img src="./images/Tracer.jpg" width="600" height="450"/>
+</p>
 ## High-Level Summary
 
 Introducing "Tracer" - a dynamic, open-source project built on the ESP-32 platform. Tailored for enthusiasts and innovators, Tracer taps into the vast array of software libraries available for the ESP-32. It offers a unique window into the intricate processes and algorithms behind creating a personalized fitness tracker.
