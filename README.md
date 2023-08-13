@@ -59,8 +59,8 @@ Tracer's design closely integrates with the Madgwick Filter, facilitating sensor
 
 For any issues or further instructions, please refer to the documentation or raise an issue in the repo.
 
-
 **Acknowledgments:** A special thank you to JLCPCB for their invaluable support in sponsoring this project. Their expertise has been instrumental, allowing for rapid prototyping without sacrificing quality.
+
 ---
 
 ## License
