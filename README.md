@@ -1,81 +1,59 @@
-# Tracer - A Wearable for Things!
-![](./images/Tracer_System.svg)
- 
- The Tracer is an open-source ESP32-based Inertial Measurement Unit tracker that allows you to track the motion and orientation of objects and stream the data to your smartphone or computer.
- 
- This repository contains the following content;
- - Schematic
- - Example code to get started with streaming data over Bluetooth (BLE) to your smartphone via [Phyphox](https://github.com/phyphox)
- - 3D Visualisation via Processing
- 
- ## What is it
-Have you ever wanted to just stick an IMU on a thing to trace its pose and motion?
-Tracer provides reliable high-performance and cost efficient tracking of objects for a variety of applications. Tracer can be easily mounted using a high quality velcro strap, allowing it to be fastened on the frame of a bicycle for lean and cadence tracking or even the neck of a tennis racquet to count number of strokes and potentially differentiate between top spin and slice. Let you imagination run wild!
+# Tracer: A Wearable for Things 🚀
 
-Leveraging on existing open-source projects the Tracer fully supports integration with Phyphox, and can be programmed using Micropython, and Arduino. Power users can also use the [ESP-IDF](https://github.com/espressif/esp-idf) tool for maximum customisation. 
+![Suggested Photo: A close-up of the Tracer device showcasing its components.](photo_link_here)
 
-Key Features;
-- Leverage the [LSM6DSL](https://www.st.com/en/mems-and-sensors/lsm6dsl.html) to track your objects in real-time.
-- Easy mounting using high quality velcro straps that allow the unit to be mounted on a wide variety of objects from your bicycle to track lean angles to an tennis racquet for pose insights.
-- On-board Li-ion battery charging using the TP4065.
-- Battery Life - 3 hours of continuous streaming over BLE at 10Hz.
-- 15m BLE range (unobstructed) - tested on a tennis court
+## High-Level Summary
 
-## Use cases
+Introducing "Tracer" - a dynamic, open-source project built on the ESP-32 platform. Tailored for enthusiasts and innovators, Tracer taps into the vast array of software libraries available for the ESP-32. It offers a unique window into the intricate processes and algorithms behind creating a personalized fitness tracker.
 
-The example code used to test this design involves close integration with the [Madgwick Filter](https://ahrs.readthedocs.io/en/latest/filters/madgwick.html). Using that filter to perform sensor fusion and generate an estimate for heading, roll and pitch, the data can then be relayed to a smartphone or PC for post processing. See below for two example
+---
 
-### Real-time 3D Visualisation
-<p align="center">
-<img src="./images/demo.gif" width="250" height="250"/>
-</p>
-This 3D visualisation is by streaming data over UART to a simple script that was written on [Processing](https://github.com/processing).
+## Detailed Description
 
-### Stream real-time data to phyphox 
-<p align="center">
-<img src="./images/phyphox.gif" width="250" height="560"/>
-</p>
-The real-time plots from the IMU is streamed over BLE to the phone. Data can later be exported over CSV for further analysis if required. Phyphox is also capable of performing DSP which should offload any energy intensive computation from the ESP32.
+### What is it?
 
-## Specification
-* Microcontroller | [ESP32-PICO-D4](https://www.espressif.com/en/producttype/esp32-pico-d4)
-    * WiFi | 802.11b/g/n
-    * Bluetooth | BLE 4.2
-    * FLASH | 4MB
-    * Programming | USB over UART (CP2104)
-* Inertial Measurement Unit (IMU) | [LSM6DSLTR](https://www.st.com/en/mems-and-sensors/lsm6dsl.html)
-    * Accelerometer | ±2/±4/±8/±16 g at 1.6 Hz to 6.7KHz
-    * Gyroscope | ±125/±250/±500/±1000/±2000 dps at 12.5 Hz to 6.7 KHz
-* Time-of-Flight (TOF) | [VL53L0X](https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html)
-    * Range | Up to 2m
-    * 1D Gesture Recognition
-* Li-ion Battery Management | TP4065
-* Power | 700mA 3.3V LDO
-* Mechanical
-    * Weight | 20g, including velcro strap
-    * Dimensions | 4.2 x 3.6 cm
-    * Mounting Options | Velcro Strap or 3x M.2.Screws
+Tracer is a versatile wearable designed for a myriad of applications. Whether you're a sports enthusiast wanting to analyze your tennis serve or a cyclist keen on understanding lean angles, Tracer provides invaluable insights. Key features include:
 
-## License
+- **Real-time Object Tracking:** Utilize the LSM6DSL for precise motion capture.
+- **Versatile Mounting:** High-quality velcro straps ensure adaptability, from monitoring lean angles on bicycles to analyzing tennis racquet poses.
+- **Battery Management:** Efficient on-board Li-ion battery charging via the TP4065.
+- **Extended Battery Life:** Up to 2.5 hours of continuous BLE streaming at 10Hz.
+- **Proven Connectivity:** Boasts a 15m BLE range in open spaces, as tested on a tennis court.
 
-MIT License
+---
 
-Copyright (c) 2022 tooyipjee
+## Use Cases
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Tracer's design closely integrates with the Madgwick Filter, facilitating sensor fusion to estimate heading, roll, and pitch. This data can be transmitted to devices like smartphones or PCs for further analysis. Here are some applications:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Use Cases
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Tracer's design closely integrates with the Madgwick Filter, facilitating sensor fusion to estimate heading, roll, and pitch. This data can be transmitted to devices like smartphones or PCs for further analysis. Here are some applications:
+
+- **Real-time 3D Visualization:** Stream data via UART to a script on [Processing](https://github.com/processing) for a 3D visual experience. Watch the demonstration [here](https://www.youtube.com/watch?v=f6d10yX7fZ4).
+  
+- **Stream to Phyphox:** Directly stream IMU plots over BLE to your phone. Export data as CSV for in-depth analysis, showcasing Tracer's capability to track accelerometer data and tennis ball strikes. Check out the live demo [here](https://www.youtube.com/watch?v=bZTHZ-QFxR4).
+
+- **Gesture Recognition with Edge Impulse:** Highlighting Tracer's adaptability, the Edge Impulse platform can be employed to train a neural network. This network operates natively on the ESP32, tracking specific gestures or activities. See it in action [here](https://www.youtube.com/watch?v=aU7HlFeuip4).
+
+
+---
+
+## How to Run the Demo Script
+
+1. **Setup:** Ensure you have the Arduino IDE installed on your computer.
+2. **Connect:** Plug in your ESP32-C3 device to your computer via USB.
+3. **Integrated JTAG:** Ensure the JTAG is setup. In Tools, "USB CDC On Boot" is Enabled and JTAG Adapter is USB JTAG Adapter.
+5. **Load Script:** Open one of the demo script provided in the Arduino IDE.
+6. **Select Board:** From the 'Tools' menu, select 'Board' and choose 'ESP32-C3'.
+7. **Select Port:** Select the port for the Tracer device, if nothing pops up, unplug the device, hold the settings button and plug it back into the computer while still holding the button. It should appear now.
+8. **Upload:** Click on the 'Upload' button to program the ESP32-C3.
+9. **Monitor:** Open the Serial Monitor to view outputs and ensure the script runs successfully.
+
+
+For any issues or further instructions, please refer to the documentation or raise an issue in the repo.
+
+---
+
+**Acknowledgments:** A special thank you to JLCPCB for their invaluable support in sponsoring this project. Their expertise has been instrumental, allowing for rapid prototyping without sacrificing quality.
+
