@@ -35,6 +35,7 @@ Tracer's design closely integrates with the Madgwick Filter, facilitating sensor
 - **Stream to Phyphox:** Directly stream IMU plots over BLE to your phone. Export data as CSV for in-depth analysis, showcasing Tracer's capability to track accelerometer data and tennis ball strikes. Check out the live demo [here](https://www.youtube.com/watch?v=bZTHZ-QFxR4).
 
 - **Gesture Recognition with Edge Impulse:** Highlighting Tracer's adaptability, the Edge Impulse platform can be employed to train a neural network. This network operates natively on the ESP32, tracking specific gestures or activities. See it in action [here](https://www.youtube.com/watch?v=aU7HlFeuip4).
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/aU7HlFeuip4/0.jpg)](http://www.youtube.com/watch?v=aU7HlFeuip4 "Video Title")
 
 
 ---
