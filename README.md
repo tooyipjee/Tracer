@@ -4,7 +4,7 @@
 <img src="./images/Tracer.jpg" width="600" height="450"/>
 </p>
 
-Available on [![Tindie](https://d2ss6ovg47m0r5.cloudfront.net/images/tindie-logo@2x.png)](https://www.tindie.com/products/elektrothing/tracer/)
+Available on <a href="https://www.tindie.com/products/elektrothing/tracer/"><img src="https://d2ss6ovg47m0r5.cloudfront.net/images/tindie-logo@2x.png" width="100"></a>
 
 ## High-Level Summary
 
