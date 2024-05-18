@@ -1,0 +1,2373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Github\Tracer\pcb\Tracer.kicad_sch</source>
+    <date>21/03/2023 22:40:46</date>
+    <tool>Eeschema (7.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Tracer</title>
+        <company/>
+        <rev>G</rev>
+        <date>2023-01-08</date>
+        <source>Tracer.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Microcontroller/" tstamps="/0d3bc842-b0d6-4d14-8cd9-d3b7cf50614c/">
+      <title_block>
+        <title>Tracer</title>
+        <company/>
+        <rev>G</rev>
+        <date>2023-01-08</date>
+        <source>microcontroller.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/">
+      <title_block>
+        <title>Tracer</title>
+        <company/>
+        <rev>G</rev>
+        <date>2023-02-15</date>
+        <source>charger.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/IMU/" tstamps="/3fc8b08f-7f0b-4b1d-ac5a-e13d1477143d/">
+      <title_block>
+        <title>Tracer</title>
+        <company/>
+        <rev>G</rev>
+        <date>2023-01-08</date>
+        <source>imu.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/USB-to-UART/" tstamps="/cb968ba4-645e-4712-822e-394a9f1f7e49/">
+      <title_block>
+        <title>Tracer</title>
+        <company/>
+        <rev>G</rev>
+        <date>2023-01-08</date>
+        <source>untitled.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="Capacitor_JLC" part="10u" description="Unpolarized capacitor"/>
+      <property name="Type" value="X5R"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Tracer.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53376acd-0220-4fcf-993e-7d9c5d9bf067</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Green_0603</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Diode_JLC" part="Green_0603" description="20mA 285mcd 3.3V 518nm Colorless transparence -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 0603 Light Emitting Diodes (LED) ROHS"/>
+      <property name="LCSC" value="C72043"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Tracer.kicad_sch"/>
+      <property name="ki_description" value="20mA 285mcd 3.3V 518nm Colorless transparence -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 0603 Light Emitting Diodes (LED) ROHS"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22a25fa3-2f86-45af-8442-1e10bea11579</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>personal:MountingHole_2.2mm_M2_Small</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Tracer.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53dd890e-5aba-493f-87ec-8a34bea86d70</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>personal:MountingHole_2.2mm_M2_Small</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Tracer.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3a18306-5bae-458e-939c-7063afc78e86</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>personal:MountingHole_2.2mm_M2_Small</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Tracer.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1075c308-b5bb-44bc-847a-178364e5c8cd</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>GT-USB-7010</value>
+      <footprint>Connectors_JT:GT-USB-7010A</footprint>
+      <datasheet>https://www.dg-switch.com/uploads/soft/190828/GT-USB-7010X.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C963370</field>
+      </fields>
+      <libsource lib="Connector_JLC" part="GT-USB-7010" description="8.94x3.16x7.35mm Pre-ordered Connectors ROHS"/>
+      <property name="LCSC" value="C963370"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Tracer.kicad_sch"/>
+      <property name="ki_description" value="8.94x3.16x7.35mm Pre-ordered Connectors ROHS"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C full-featured"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05fd22cb-dff4-4a8c-8f01-3428b502748b</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Tracer.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25d65e44-117f-454d-a719-e4b267e4f741</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Tracer.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a627b3ca-130a-4967-a18f-a4f8408698c8</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25879</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="2.2k" description="2.2K ±1% 1/16W ±100ppm/°C 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C25879"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Tracer.kicad_sch"/>
+      <property name="ki_description" value="2.2K ±1% 1/16W ±100ppm/°C 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2aebe770-38ae-442b-a772-8fe421c321d7</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <libsource lib="personal" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Tracer.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative shape)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>185c47ff-327e-4f78-b5cf-926528c3537a</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C52923</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="Capacitor_JLC" part="1u" description="Unpolarized capacitor"/>
+      <property name="Type" value="X5R"/>
+      <property name="LCSC" value="C52923"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/0d3bc842-b0d6-4d14-8cd9-d3b7cf50614c/"/>
+      <tstamps>ba54bc51-55f1-47ef-93d6-117d277379ed</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="Type">X7R</field>
+      </fields>
+      <libsource lib="Capacitor_JLC" part="100n" description="Unpolarized capacitor"/>
+      <property name="Type" value="X7R"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/0d3bc842-b0d6-4d14-8cd9-d3b7cf50614c/"/>
+      <tstamps>0a285d1a-3bde-475d-91a6-32af56cdea3b</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="Capacitor_JLC" part="10u" description="Unpolarized capacitor"/>
+      <property name="Type" value="X5R"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/0d3bc842-b0d6-4d14-8cd9-d3b7cf50614c/"/>
+      <tstamps>047a2792-3899-4e7d-a045-c64ff9f8bf1d</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="Type">X7R</field>
+      </fields>
+      <libsource lib="Capacitor_JLC" part="100n" description="Unpolarized capacitor"/>
+      <property name="Type" value="X7R"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/0d3bc842-b0d6-4d14-8cd9-d3b7cf50614c/"/>
+      <tstamps>a5da372c-1098-441f-9f2b-b1c04cb36489</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="Type">X7R</field>
+      </fields>
+      <libsource lib="Capacitor_JLC" part="100n" description="Unpolarized capacitor"/>
+      <property name="Type" value="X7R"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/0d3bc842-b0d6-4d14-8cd9-d3b7cf50614c/"/>
+      <tstamps>47316a27-90b9-4203-8d80-1a6ea2e2c9c5</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>Green_0603</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Diode_JLC" part="Green_0603" description="20mA 285mcd 3.3V 518nm Colorless transparence -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 0603 Light Emitting Diodes (LED) ROHS"/>
+      <property name="LCSC" value="C72043"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="microcontroller.kicad_sch"/>
+      <property name="ki_description" value="20mA 285mcd 3.3V 518nm Colorless transparence -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 0603 Light Emitting Diodes (LED) ROHS"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Microcontroller/" tstamps="/0d3bc842-b0d6-4d14-8cd9-d3b7cf50614c/"/>
+      <tstamps>ccc78348-70e1-4312-afef-50b1959aabd1</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>ESP32-C3-MINI-1-N4</value>
+      <footprint>ESP32C3MINI1N4</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/891/Espressif_ESP32_C3_MINI_1_Datasheet-2006822.pdf</datasheet>
+      <fields>
+        <field name="Description">SMD MODULE, ESP32-C3FN4, PCB ANT</field>
+        <field name="Height">2.55</field>
+        <field name="LCSC">C2838502</field>
+        <field name="Manufacturer_Name">Espressif Systems</field>
+        <field name="Manufacturer_Part_Number">ESP32-C3-MINI-1-N4</field>
+        <field name="Mouser Part Number">356-ESP32-C3-MINI1N4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-C3-MINI-1-N4?qs=stqOd1AaK7%252B%2FpH3qqyGehA%3D%3D</field>
+      </fields>
+      <libsource lib="MCU_JLC" part="ESP32-C3-MINI-1-N4" description="SMD MODULE, ESP32-C3FN4, PCB ANT"/>
+      <property name="Description" value="SMD MODULE, ESP32-C3FN4, PCB ANT"/>
+      <property name="Height" value="2.55"/>
+      <property name="Manufacturer_Name" value="Espressif Systems"/>
+      <property name="Manufacturer_Part_Number" value="ESP32-C3-MINI-1-N4"/>
+      <property name="Mouser Part Number" value="356-ESP32-C3-MINI1N4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-C3-MINI-1-N4?qs=stqOd1AaK7%252B%2FpH3qqyGehA%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="LCSC" value="C2838502"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="microcontroller.kicad_sch"/>
+      <property name="ki_description" value="SMD MODULE, ESP32-C3FN4, PCB ANT"/>
+      <sheetpath names="/Microcontroller/" tstamps="/0d3bc842-b0d6-4d14-8cd9-d3b7cf50614c/"/>
+      <tstamps>079a791d-4be3-4f64-b2b4-2689af465fb0</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>MUN5214DW1T1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/DTC114ED-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C94403</field>
+      </fields>
+      <libsource lib="Transistor_JLC" part="MUN5214DW1T1G" description="0.1A Ic, 50V Vce, Dual NPN Bias Resistor Transistors, SOT-363"/>
+      <property name="LCSC" value="C94403"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="microcontroller.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 50V Vce, Dual NPN Bias Resistor Transistors, SOT-363"/>
+      <property name="ki_keywords" value="Dual NPN Transistor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/0d3bc842-b0d6-4d14-8cd9-d3b7cf50614c/"/>
+      <tstamps>a00fecd6-3247-47f9-a1c6-c9c465fb1d80 17525194-36cc-462f-a541-dc26cdbef556</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="10k" description="Resistor"/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/0d3bc842-b0d6-4d14-8cd9-d3b7cf50614c/"/>
+      <tstamps>e3989918-0725-47f7-b9e1-48b570b0e233</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="10k" description="Resistor"/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/0d3bc842-b0d6-4d14-8cd9-d3b7cf50614c/"/>
+      <tstamps>0f5d9312-7212-4a66-b492-ab013ae09308</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="1k" description="Resistor"/>
+      <property name="LCSC" value="C11702"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/0d3bc842-b0d6-4d14-8cd9-d3b7cf50614c/"/>
+      <tstamps>65046326-f332-4ecb-ade5-5d17a742ac34</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>TS-1101-C-W</value>
+      <footprint>TS1101CW</footprint>
+      <datasheet>http://www.helloxkb.com/public/images/pdf/TS-1101-C-W-.pdf</datasheet>
+      <fields>
+        <field name="Description">Tactile Switches SPST 6.00mm x 3.60mm 0.60mm 50mA @ 12VDC SMD RoHS</field>
+        <field name="Height">2.6</field>
+        <field name="LCSC">C318938</field>
+        <field name="Manufacturer_Name">XKB Connectivity</field>
+        <field name="Manufacturer_Part_Number">TS-1101-C-W</field>
+      </fields>
+      <libsource lib="Button_JLC" part="TS-1101-C-W" description="Tactile Switches SPST 6.00mm x 3.60mm 0.60mm 50mA @ 12VDC SMD RoHS"/>
+      <property name="Description" value="Tactile Switches SPST 6.00mm x 3.60mm 0.60mm 50mA @ 12VDC SMD RoHS"/>
+      <property name="Height" value="2.6"/>
+      <property name="Manufacturer_Name" value="XKB Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="TS-1101-C-W"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="LCSC" value="C318938"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Tactile Switches SPST 6.00mm x 3.60mm 0.60mm 50mA @ 12VDC SMD RoHS"/>
+      <sheetpath names="/Microcontroller/" tstamps="/0d3bc842-b0d6-4d14-8cd9-d3b7cf50614c/"/>
+      <tstamps>80957e43-19ad-4640-849f-60e41bcacf28</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>TS-1101-C-W</value>
+      <footprint>TS1101CW</footprint>
+      <datasheet>http://www.helloxkb.com/public/images/pdf/TS-1101-C-W-.pdf</datasheet>
+      <fields>
+        <field name="Description">Tactile Switches SPST 6.00mm x 3.60mm 0.60mm 50mA @ 12VDC SMD RoHS</field>
+        <field name="Height">2.6</field>
+        <field name="LCSC">C318938</field>
+        <field name="Manufacturer_Name">XKB Connectivity</field>
+        <field name="Manufacturer_Part_Number">TS-1101-C-W</field>
+      </fields>
+      <libsource lib="Button_JLC" part="TS-1101-C-W" description="Tactile Switches SPST 6.00mm x 3.60mm 0.60mm 50mA @ 12VDC SMD RoHS"/>
+      <property name="Description" value="Tactile Switches SPST 6.00mm x 3.60mm 0.60mm 50mA @ 12VDC SMD RoHS"/>
+      <property name="Height" value="2.6"/>
+      <property name="Manufacturer_Name" value="XKB Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="TS-1101-C-W"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="LCSC" value="C318938"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Tactile Switches SPST 6.00mm x 3.60mm 0.60mm 50mA @ 12VDC SMD RoHS"/>
+      <sheetpath names="/Microcontroller/" tstamps="/0d3bc842-b0d6-4d14-8cd9-d3b7cf50614c/"/>
+      <tstamps>d8d08afa-5201-41b5-bc46-2949d0a793ed</tstamps>
+    </comp>
+    <comp ref="BT1">
+      <value>CR2450</value>
+      <footprint>BatteryHolders:BS-24-B4AK014</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2012311835_MYOUNG-BS-24-B4AK014_C964813.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C964813</field>
+        <field name="Mfg No">BS-24-B4AK014</field>
+      </fields>
+      <libsource lib="BatteryHolder_JLC" part="CR2450" description="Battery base -25℃~+85℃ CR2450 SMD Battery Connectors ROHS"/>
+      <property name="Mfg No" value="BS-24-B4AK014"/>
+      <property name="LCSC" value="C964813"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="Battery base -25℃~+85℃ CR2450 SMD Battery Connectors ROHS"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>8cc5cc92-5670-42d2-a864-cf9470bd97cf</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C52923</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="Capacitor_JLC" part="1u" description="Unpolarized capacitor"/>
+      <property name="Type" value="X5R"/>
+      <property name="LCSC" value="C52923"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>a0214e1e-0081-4407-b85a-91fa2ed5a43f</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="Capacitor_JLC" part="10u" description="Unpolarized capacitor"/>
+      <property name="Type" value="X5R"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>19a979f3-66b9-4070-893b-8016da991857</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="Capacitor_JLC" part="10u" description="Unpolarized capacitor"/>
+      <property name="Type" value="X5R"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>eb0b43f9-d2ec-4e56-b54f-fcc04d1356f6</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C29823</field>
+        <field name="Rating">50V</field>
+        <field name="Type">X7R</field>
+      </fields>
+      <libsource lib="Capacitor_JLC" part="4.7u" description="MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 4.7UF 50V 1206 ROHS"/>
+      <property name="Type" value="X7R"/>
+      <property name="LCSC" value="C29823"/>
+      <property name="Rating" value="50V"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 4.7UF 50V 1206 ROHS"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>4046db9d-3442-4c85-acb5-dd6036753527</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>Green_0603</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Diode_JLC" part="Green_0603" description="20mA 285mcd 3.3V 518nm Colorless transparence -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 0603 Light Emitting Diodes (LED) ROHS"/>
+      <property name="LCSC" value="C72043"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="20mA 285mcd 3.3V 518nm Colorless transparence -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 0603 Light Emitting Diodes (LED) ROHS"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>cf2d04ab-6426-4cb4-9fb8-adb705060ca2</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>Green_0603</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Diode_JLC" part="Green_0603" description="20mA 285mcd 3.3V 518nm Colorless transparence -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 0603 Light Emitting Diodes (LED) ROHS"/>
+      <property name="LCSC" value="C72043"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="20mA 285mcd 3.3V 518nm Colorless transparence -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 0603 Light Emitting Diodes (LED) ROHS"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>4a3962c1-2de3-40b2-a39c-2093866f71e3</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>B5819W.SL</value>
+      <footprint>B5819WSL</footprint>
+      <datasheet>https://file.elecfans.com/web1/M00/8A/32/pIYBAFyLiveAInCMAAthN3CVBXo401.pdf?filename=1505718310707869662.pdf</datasheet>
+      <fields>
+        <field name="Description">SOD-123 Plastic-Encapsulate Diodes</field>
+        <field name="Height">1.25</field>
+        <field name="LCSC">C8598</field>
+        <field name="Manufacturer_Name">1-Avel</field>
+        <field name="Manufacturer_Part_Number">B5819W.SL</field>
+      </fields>
+      <libsource lib="Diode_JLC" part="B5819W.SL" description="SOD-123 Plastic-Encapsulate Diodes"/>
+      <property name="Description" value="SOD-123 Plastic-Encapsulate Diodes"/>
+      <property name="Height" value="1.25"/>
+      <property name="Manufacturer_Name" value="1-Avel"/>
+      <property name="Manufacturer_Part_Number" value="B5819W.SL"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="LCSC" value="C8598"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="SOD-123 Plastic-Encapsulate Diodes"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>e2d83c5e-523a-4f60-994e-3139c5df75a4</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>XC6227C331MR-G</value>
+      <footprint>SOT95P280X130-5N</footprint>
+      <datasheet>https://www.torexsemi.com/file/xc6227/XC6227.pdf</datasheet>
+      <fields>
+        <field name="Description">IC REG LINEAR 3.3V 700MA SOT25</field>
+        <field name="Height">1.3</field>
+        <field name="LCSC">C216640</field>
+        <field name="Manufacturer_Name">Torex</field>
+        <field name="Manufacturer_Part_Number">XC6227C331MR-G</field>
+        <field name="Mouser Part Number">865-XC6227C331MR-G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6227C331MR-G?qs=AsjdqWjXhJ8dqb1QLv06nA%3D%3D</field>
+      </fields>
+      <libsource lib="Power-Drivers_JLC" part="XC6227C331MR-G" description="65dB@(1kHz) 700mA 200mV@(300mA) Fixed 3.3V~3.3V Positive 1 6V SOT-25 Linear Voltage Regulators (LDO) ROHS"/>
+      <property name="Description" value="IC REG LINEAR 3.3V 700MA SOT25"/>
+      <property name="Height" value="1.3"/>
+      <property name="Manufacturer_Name" value="Torex"/>
+      <property name="Manufacturer_Part_Number" value="XC6227C331MR-G"/>
+      <property name="Mouser Part Number" value="865-XC6227C331MR-G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6227C331MR-G?qs=AsjdqWjXhJ8dqb1QLv06nA%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="LCSC" value="C216640"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="65dB@(1kHz) 700mA 200mV@(300mA) Fixed 3.3V~3.3V Positive 1 6V SOT-25 Linear Voltage Regulators (LDO) ROHS"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>5572548d-1108-425a-b8b5-6e0f5dda40c1</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>BQ24073RGTR</value>
+      <footprint>QFN50P300X300X100-17N-D</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/bq24073.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">BQ24073RGTR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/bq24073rgtr/texas-instruments</field>
+        <field name="Description">USB-Friendly Li-Ion Battery Charger and Power-Path Management IC, Vout 4.4V</field>
+        <field name="Height">1</field>
+        <field name="LCSC">C15220</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">BQ24073RGTR</field>
+        <field name="Mouser Part Number">595-BQ24073RGTR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ24073RGTR?qs=ZV%2Fxhq4oszqX%2F3rMt%2FwIsw%3D%3D</field>
+      </fields>
+      <libsource lib="Power-Drivers_JLC" part="BQ24073RGTR" description="USB-Friendly Li-Ion Battery Charger and Power-Path Management IC, Vout 4.4V"/>
+      <property name="Description" value="USB-Friendly Li-Ion Battery Charger and Power-Path Management IC, Vout 4.4V"/>
+      <property name="Height" value="1"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="BQ24073RGTR"/>
+      <property name="Mouser Part Number" value="595-BQ24073RGTR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ24073RGTR?qs=ZV%2Fxhq4oszqX%2F3rMt%2FwIsw%3D%3D"/>
+      <property name="Arrow Part Number" value="BQ24073RGTR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/bq24073rgtr/texas-instruments"/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="LCSC" value="C15220"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="USB-Friendly Li-Ion Battery Charger and Power-Path Management IC, Vout 4.4V"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>fcfaa515-692e-443b-b978-4d720c170424</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>PH-2RA</value>
+      <footprint>SHDRRA2W50P0X200_1X2_600X760X510P</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/291/A2001-1532311.pdf</datasheet>
+      <fields>
+        <field name="Description">Headers &amp; Wire Housings Thruhole right angle backlight connector</field>
+        <field name="Height">5.1</field>
+        <field name="LCSC">C225207</field>
+        <field name="Manufacturer_Name">Newhaven Display</field>
+        <field name="Manufacturer_Part_Number">A2001WR-2P Thru-hole</field>
+        <field name="Mouser Part Number">763-A2001WR2P</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Newhaven-Display/A2001WR-2P-Thru-hole?qs=gZXFycFWdAPcYjIK7pURng%3D%3D</field>
+      </fields>
+      <libsource lib="Connector_JLC" part="PH-2RA" description=""/>
+      <property name="Description" value="Headers &amp; Wire Housings Thruhole right angle backlight connector"/>
+      <property name="Height" value="5.1"/>
+      <property name="Manufacturer_Name" value="Newhaven Display"/>
+      <property name="Manufacturer_Part_Number" value="A2001WR-2P Thru-hole"/>
+      <property name="Mouser Part Number" value="763-A2001WR2P"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Newhaven-Display/A2001WR-2P-Thru-hole?qs=gZXFycFWdAPcYjIK7pURng%3D%3D"/>
+      <property name="LCSC" value="C225207"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>7bd9218f-159f-4b76-b39e-80bcbdac3f50</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>51k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25794</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="51k" description="Resistor"/>
+      <property name="LCSC" value="C25794"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>14e1bbc5-b134-444c-8ee0-2824f139dbc6</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1.5k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25867</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="1.5k" description="Resistor"/>
+      <property name="LCSC" value="C25867"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>9287f90c-d242-46dd-8b80-d3fd1e66dec2</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25741</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="100k" description="Resistor"/>
+      <property name="LCSC" value="C25741"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>927c8ca1-ac5b-4144-a77a-dd8c9290cf34</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1.5k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25867</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="1.5k" description="Resistor"/>
+      <property name="LCSC" value="C25867"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>fa953b9b-211f-41bb-b9c2-29a4d4ab7a47</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25879</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="2.2k" description="2.2K ±1% 1/16W ±100ppm/°C 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C25879"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="2.2K ±1% 1/16W ±100ppm/°C 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>71221839-bd43-42ad-8a19-2ea9f0bf68bf</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25879</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="2.2k" description="2.2K ±1% 1/16W ±100ppm/°C 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C25879"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="2.2K ±1% 1/16W ±100ppm/°C 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>c07b69e2-9795-42e6-bdc9-f3624522e141</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>51k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25794</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="51k" description="Resistor"/>
+      <property name="LCSC" value="C25794"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>2c3f5dec-a8b4-4ade-970b-ca41582ec302</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>51k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25794</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="51k" description="Resistor"/>
+      <property name="LCSC" value="C25794"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>34f8af70-9f83-4b29-90cf-6273fa0be2e8</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>51k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25794</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="51k" description="Resistor"/>
+      <property name="LCSC" value="C25794"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>29bcde38-6125-49af-a360-8e5cfc3cb0a5</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>51k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25794</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="51k" description="Resistor"/>
+      <property name="LCSC" value="C25794"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>8bb0f1dd-e677-4f1c-bea8-d2c171f893a9</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>560k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23203</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="560k" description="CHIP RESISTOR - SURFACE MOUNT 560KOHMS ±1% 1/10W 0603 ROHS"/>
+      <property name="LCSC" value="C23203"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="CHIP RESISTOR - SURFACE MOUNT 560KOHMS ±1% 1/10W 0603 ROHS"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>7cdd8274-2ad2-4f30-acda-ff65d4dd97cd</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>220k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25767</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="220k" description="Resistor"/>
+      <property name="LCSC" value="C25767"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>209036ed-46e6-4426-b074-d11f95daa6b8</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>K3-1296S-E1</value>
+      <footprint>K31296SE1</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K3-1296S-E1_C128955.pdf</datasheet>
+      <fields>
+        <field name="Description">Toggle Switches SMD RoHS</field>
+        <field name="Height">1.6</field>
+        <field name="LCSC">C128955</field>
+        <field name="Manufacturer_Name">Korean Hroparts Elec</field>
+        <field name="Manufacturer_Part_Number">K3-1296S-E1</field>
+      </fields>
+      <libsource lib="Switches_JLC" part="K3-1296S-E1" description="Toggle Switches SMD RoHS"/>
+      <property name="Description" value="Toggle Switches SMD RoHS"/>
+      <property name="Height" value="1.6"/>
+      <property name="Manufacturer_Name" value="Korean Hroparts Elec"/>
+      <property name="Manufacturer_Part_Number" value="K3-1296S-E1"/>
+      <property name="LCSC" value="C128955"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="Toggle Switches SMD RoHS"/>
+      <property name="ki_keywords" value="C128955"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>70023870-ca29-4fea-a0f5-fcacd0157ec4</tstamps>
+    </comp>
+    <comp ref="TH1">
+      <value>10k_NTC</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C333993</field>
+        <field name="MPN">NCU15XH103F6SRC</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="10k_NTC" description="10kΩ -40℃~+125℃ 3455K 0.1mA 3434K ±1% 3380K ±1% 0402 NTC Thermistors ROHS"/>
+      <property name="LCSC" value="C333993"/>
+      <property name="MPN" value="NCU15XH103F6SRC"/>
+      <property name="Sheetname" value="Battery Charger"/>
+      <property name="Sheetfile" value="charger.kicad_sch"/>
+      <property name="ki_description" value="10kΩ -40℃~+125℃ 3455K 0.1mA 3434K ±1% 3380K ±1% 0402 NTC Thermistors ROHS"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery Charger/" tstamps="/fb9f2b1a-58be-4bbd-a289-be422e4a2db2/"/>
+      <tstamps>f53719e4-6fd0-4bac-bb57-a45227e799cc</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="" part="100n_3" description="Unpolarized capacitor"/>
+      <property name="Type" value="X7R"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="imu.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/IMU/" tstamps="/3fc8b08f-7f0b-4b1d-ac5a-e13d1477143d/"/>
+      <tstamps>e526d8ac-d0f8-4d79-85f7-e8d3a84c6211</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="" part="100n_2" description="Unpolarized capacitor"/>
+      <property name="Type" value="X7R"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="imu.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/IMU/" tstamps="/3fc8b08f-7f0b-4b1d-ac5a-e13d1477143d/"/>
+      <tstamps>fffd3813-f4e0-40e1-90ef-954e2d7183e8</tstamps>
+    </comp>
+    <comp ref="IC4">
+      <value>LSM6DSLTR</value>
+      <footprint>LSM6DSLTR</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/lsm6dsl.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LSM6DSLTR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/lsm6dsltr/stmicroelectronics</field>
+        <field name="Description">IMUs - Inertial Measurement Units CONSUMER MEMS</field>
+        <field name="Height">0.86</field>
+        <field name="LCSC">C126672</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">LSM6DSLTR</field>
+        <field name="Mouser Part Number">511-LSM6DSLTR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LSM6DSLTR?qs=dTJS0cRn7oit9g7CgtPlyQ%3D%3D</field>
+      </fields>
+      <libsource lib="Sensors_JLC" part="LSM6DSLTR" description="IMUs - Inertial Measurement Units CONSUMER MEMS"/>
+      <property name="Description" value="IMUs - Inertial Measurement Units CONSUMER MEMS"/>
+      <property name="Height" value="0.86"/>
+      <property name="Manufacturer_Name" value="STMicroelectronics"/>
+      <property name="Manufacturer_Part_Number" value="LSM6DSLTR"/>
+      <property name="Mouser Part Number" value="511-LSM6DSLTR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LSM6DSLTR?qs=dTJS0cRn7oit9g7CgtPlyQ%3D%3D"/>
+      <property name="Arrow Part Number" value="LSM6DSLTR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/lsm6dsltr/stmicroelectronics"/>
+      <property name="LCSC" value="C126672"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="imu.kicad_sch"/>
+      <property name="ki_description" value="IMUs - Inertial Measurement Units CONSUMER MEMS"/>
+      <sheetpath names="/IMU/" tstamps="/3fc8b08f-7f0b-4b1d-ac5a-e13d1477143d/"/>
+      <tstamps>4de40ed7-21a6-4509-8090-cf589d6d21cc</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="10k" description="Resistor"/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="imu.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/IMU/" tstamps="/3fc8b08f-7f0b-4b1d-ac5a-e13d1477143d/"/>
+      <tstamps>0d625e2f-fdaa-4086-82c9-299865b92e66</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="10k" description="Resistor"/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="imu.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/IMU/" tstamps="/3fc8b08f-7f0b-4b1d-ac5a-e13d1477143d/"/>
+      <tstamps>5c416d7f-92f4-4463-945c-e5e5c5b89f70</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="Type">X7R</field>
+      </fields>
+      <libsource lib="Capacitor_JLC" part="100n" description="Unpolarized capacitor"/>
+      <property name="Type" value="X7R"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="USB-to-UART"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB-to-UART/" tstamps="/cb968ba4-645e-4712-822e-394a9f1f7e49/"/>
+      <tstamps>8b1bf30c-1928-4ed3-833c-a4a48bdaf070</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="Type">X7R</field>
+      </fields>
+      <libsource lib="Capacitor_JLC" part="100n" description="Unpolarized capacitor"/>
+      <property name="Type" value="X7R"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="USB-to-UART"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB-to-UART/" tstamps="/cb968ba4-645e-4712-822e-394a9f1f7e49/"/>
+      <tstamps>da4a996d-b7fd-4d98-8a38-2cbcf51ac199</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>10u_0402</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C315248</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Capacitor_JLC" part="10u_0402" description="10V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="Type" value="X5R"/>
+      <property name="LCSC" value="C315248"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Sheetname" value="USB-to-UART"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="10V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB-to-UART/" tstamps="/cb968ba4-645e-4712-822e-394a9f1f7e49/"/>
+      <tstamps>8faeb713-b634-462d-84dd-041bfe10e243</tstamps>
+    </comp>
+    <comp ref="IC5">
+      <value>CP2102N-A02-GQFN28R</value>
+      <footprint>QFN50P500X500X80-29N-D</footprint>
+      <datasheet>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CP2102N-A02-GQFN28R</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cp2102n-a02-gqfn28r/silicon-labs</field>
+        <field name="Description">USB Interface IC USB to UART bridge - QFN28</field>
+        <field name="Height">0.8</field>
+        <field name="LCSC">C6568</field>
+        <field name="Manufacturer_Name">Silicon Labs</field>
+        <field name="Manufacturer_Part_Number">CP2102N-A02-GQFN28R</field>
+        <field name="Mouser Part Number">634-CP2102NA02QFN28R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Silicon-Labs/CP2102N-A02-GQFN28R?qs=u16ybLDytRag4qKvSH3fTw%3D%3D</field>
+      </fields>
+      <libsource lib="USB_JLC" part="CP2102N-A02-GQFN28R" description="USB Interface IC USB to UART bridge - QFN28"/>
+      <property name="Description" value="USB Interface IC USB to UART bridge - QFN28"/>
+      <property name="Height" value="0.8"/>
+      <property name="Manufacturer_Name" value="Silicon Labs"/>
+      <property name="Manufacturer_Part_Number" value="CP2102N-A02-GQFN28R"/>
+      <property name="Mouser Part Number" value="634-CP2102NA02QFN28R"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Silicon-Labs/CP2102N-A02-GQFN28R?qs=u16ybLDytRag4qKvSH3fTw%3D%3D"/>
+      <property name="Arrow Part Number" value="CP2102N-A02-GQFN28R"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/cp2102n-a02-gqfn28r/silicon-labs"/>
+      <property name="LCSC" value="C6568"/>
+      <property name="Sheetname" value="USB-to-UART"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="USB Interface IC USB to UART bridge - QFN28"/>
+      <sheetpath names="/USB-to-UART/" tstamps="/cb968ba4-645e-4712-822e-394a9f1f7e49/"/>
+      <tstamps>e49984d2-a507-4027-8515-82561dcaca73</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Resistor_JLC" part="1k" description="Resistor"/>
+      <property name="LCSC" value="C11702"/>
+      <property name="Sheetname" value="USB-to-UART"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/USB-to-UART/" tstamps="/cb968ba4-645e-4712-822e-394a9f1f7e49/"/>
+      <tstamps>819c3911-e756-40ab-9b50-08765922cbbe</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="100n_2">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100n_2</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Type">X7R</field>
+        <field name="LCSC">C307331</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="100n_3">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100n_3</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Type">X7R</field>
+        <field name="LCSC">C307331</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BatteryHolder_JLC" part="CR2450">
+      <description>Battery base -25℃~+85℃ CR2450 SMD Battery Connectors ROHS</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2012311835_MYOUNG-BS-24-B4AK014_C964813.pdf</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">CR2450</field>
+        <field name="Footprint">BatteryHolders:BS-24-B4AK014</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2012311835_MYOUNG-BS-24-B4AK014_C964813.pdf</field>
+        <field name="Mfg No">BS-24-B4AK014</field>
+        <field name="LCSC">C964813</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Button_JLC" part="TS-1101-C-W">
+      <description>Tactile Switches SPST 6.00mm x 3.60mm 0.60mm 50mA @ 12VDC SMD RoHS</description>
+      <docs>http://www.helloxkb.com/public/images/pdf/TS-1101-C-W-.pdf</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">TS-1101-C-W</field>
+        <field name="Footprint">TS1101CW</field>
+        <field name="Datasheet">http://www.helloxkb.com/public/images/pdf/TS-1101-C-W-.pdf</field>
+        <field name="Description">Tactile Switches SPST 6.00mm x 3.60mm 0.60mm 50mA @ 12VDC SMD RoHS</field>
+        <field name="Height">2.6</field>
+        <field name="Manufacturer_Name">XKB Connectivity</field>
+        <field name="Manufacturer_Part_Number">TS-1101-C-W</field>
+        <field name="LCSC">C318938</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitor_JLC" part="100n">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Type">X7R</field>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitor_JLC" part="10u">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10u</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Type">X5R</field>
+        <field name="LCSC">C15850</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitor_JLC" part="10u_0402">
+      <description>10V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10u_0402</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Type">X5R</field>
+        <field name="LCSC">C315248</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitor_JLC" part="1u">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1u</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Type">X5R</field>
+        <field name="LCSC">C52923</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitor_JLC" part="4.7u">
+      <description>MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 4.7UF 50V 1206 ROHS</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7u</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Type">X7R</field>
+        <field name="LCSC">C29823</field>
+        <field name="Rating">50V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_JLC" part="GT-USB-7010">
+      <description>8.94x3.16x7.35mm Pre-ordered Connectors ROHS</description>
+      <docs>https://www.dg-switch.com/uploads/soft/190828/GT-USB-7010X.pdf</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GT-USB-7010</field>
+        <field name="Footprint">Connectors_JT:GT-USB-7010A</field>
+        <field name="Datasheet">https://www.dg-switch.com/uploads/soft/190828/GT-USB-7010X.pdf</field>
+        <field name="LCSC">C963370</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_JLC" part="PH-2RA">
+      <docs>https://www.mouser.ca/datasheet/2/291/A2001-1532311.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PH-2RA</field>
+        <field name="Footprint">SHDRRA2W50P0X200_1X2_600X760X510P</field>
+        <field name="Datasheet">https://www.mouser.ca/datasheet/2/291/A2001-1532311.pdf</field>
+        <field name="Description">Headers &amp; Wire Housings Thruhole right angle backlight connector</field>
+        <field name="Height">5.1</field>
+        <field name="Manufacturer_Name">Newhaven Display</field>
+        <field name="Manufacturer_Part_Number">A2001WR-2P Thru-hole</field>
+        <field name="Mouser Part Number">763-A2001WR2P</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Newhaven-Display/A2001WR-2P-Thru-hole?qs=gZXFycFWdAPcYjIK7pURng%3D%3D</field>
+        <field name="LCSC">C225207</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode_JLC" part="B5819W.SL">
+      <description>SOD-123 Plastic-Encapsulate Diodes</description>
+      <docs>https://file.elecfans.com/web1/M00/8A/32/pIYBAFyLiveAInCMAAthN3CVBXo401.pdf?filename=1505718310707869662.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">B5819W.SL</field>
+        <field name="Footprint">B5819WSL</field>
+        <field name="Datasheet">https://file.elecfans.com/web1/M00/8A/32/pIYBAFyLiveAInCMAAthN3CVBXo401.pdf?filename=1505718310707869662.pdf</field>
+        <field name="Description">SOD-123 Plastic-Encapsulate Diodes</field>
+        <field name="Height">1.25</field>
+        <field name="Manufacturer_Name">1-Avel</field>
+        <field name="Manufacturer_Part_Number">B5819W.SL</field>
+        <field name="LCSC">C8598</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode_JLC" part="Green_0603">
+      <description>20mA 285mcd 3.3V 518nm Colorless transparence -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 0603 Light Emitting Diodes (LED) ROHS</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Green_0603</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf</field>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Bridged12">
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Bridged12</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_JLC" part="ESP32-C3-MINI-1-N4">
+      <description>SMD MODULE, ESP32-C3FN4, PCB ANT</description>
+      <docs>https://www.mouser.com/datasheet/2/891/Espressif_ESP32_C3_MINI_1_Datasheet-2006822.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ESP32-C3-MINI-1-N4</field>
+        <field name="Footprint">ESP32C3MINI1N4</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/891/Espressif_ESP32_C3_MINI_1_Datasheet-2006822.pdf</field>
+        <field name="Description">SMD MODULE, ESP32-C3FN4, PCB ANT</field>
+        <field name="Height">2.55</field>
+        <field name="Manufacturer_Name">Espressif Systems</field>
+        <field name="Manufacturer_Part_Number">ESP32-C3-MINI-1-N4</field>
+        <field name="Mouser Part Number">356-ESP32-C3-MINI1N4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-C3-MINI-1-N4?qs=stqOd1AaK7%252B%2FpH3qqyGehA%3D%3D</field>
+        <field name="LCSC">C2838502</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND_1" type="passive"/>
+        <pin num="2" name="GND_2" type="passive"/>
+        <pin num="3" name="3V3" type="passive"/>
+        <pin num="4" name="NC_1" type="passive"/>
+        <pin num="5" name="IO2" type="passive"/>
+        <pin num="6" name="IO3" type="passive"/>
+        <pin num="7" name="NC_2" type="passive"/>
+        <pin num="8" name="EN" type="passive"/>
+        <pin num="9" name="NC_3" type="passive"/>
+        <pin num="10" name="NC_4" type="passive"/>
+        <pin num="11" name="GND_3" type="passive"/>
+        <pin num="12" name="IO0" type="passive"/>
+        <pin num="13" name="IO1" type="passive"/>
+        <pin num="14" name="GND_4" type="passive"/>
+        <pin num="15" name="NC_5" type="passive"/>
+        <pin num="16" name="IO10" type="passive"/>
+        <pin num="17" name="NC_6" type="passive"/>
+        <pin num="18" name="IO4" type="passive"/>
+        <pin num="19" name="IO5" type="passive"/>
+        <pin num="20" name="IO6" type="passive"/>
+        <pin num="21" name="IO7" type="passive"/>
+        <pin num="22" name="IO8" type="passive"/>
+        <pin num="23" name="IO9" type="passive"/>
+        <pin num="24" name="NC_7" type="passive"/>
+        <pin num="25" name="NC_8" type="passive"/>
+        <pin num="26" name="IO18" type="passive"/>
+        <pin num="27" name="IO19" type="passive"/>
+        <pin num="28" name="NC_9" type="passive"/>
+        <pin num="29" name="NC_10" type="passive"/>
+        <pin num="30" name="RXD0" type="passive"/>
+        <pin num="31" name="TXD0" type="passive"/>
+        <pin num="32" name="NC_11" type="passive"/>
+        <pin num="33" name="NC_12" type="passive"/>
+        <pin num="34" name="NC_13" type="passive"/>
+        <pin num="35" name="NC_14" type="passive"/>
+        <pin num="36" name="GND_5" type="passive"/>
+        <pin num="37" name="GND_6" type="passive"/>
+        <pin num="38" name="GND_7" type="passive"/>
+        <pin num="39" name="GND_8" type="passive"/>
+        <pin num="40" name="GND_9" type="passive"/>
+        <pin num="41" name="GND_10" type="passive"/>
+        <pin num="42" name="GND_11" type="passive"/>
+        <pin num="43" name="GND_12" type="passive"/>
+        <pin num="44" name="GND_13" type="passive"/>
+        <pin num="45" name="GND_14" type="passive"/>
+        <pin num="46" name="GND_15" type="passive"/>
+        <pin num="47" name="GND_16" type="passive"/>
+        <pin num="48" name="GND_17" type="passive"/>
+        <pin num="49" name="GND_18" type="passive"/>
+        <pin num="50" name="GND_19" type="passive"/>
+        <pin num="51" name="GND_20" type="passive"/>
+        <pin num="52" name="GND_21" type="passive"/>
+        <pin num="53" name="GND_22" type="passive"/>
+        <pin num="54" name="GND_23" type="passive"/>
+        <pin num="55" name="GND_24" type="passive"/>
+        <pin num="56" name="GND_25" type="passive"/>
+        <pin num="57" name="GND_26" type="passive"/>
+        <pin num="58" name="GND_27" type="passive"/>
+        <pin num="59" name="GND_28" type="passive"/>
+        <pin num="60" name="GND_29" type="passive"/>
+        <pin num="61" name="GND_30" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power-Drivers_JLC" part="BQ24073RGTR">
+      <description>USB-Friendly Li-Ion Battery Charger and Power-Path Management IC, Vout 4.4V</description>
+      <docs>http://www.ti.com/lit/ds/symlink/bq24073.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">BQ24073RGTR</field>
+        <field name="Footprint">QFN50P300X300X100-17N-D</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/bq24073.pdf</field>
+        <field name="Description">USB-Friendly Li-Ion Battery Charger and Power-Path Management IC, Vout 4.4V</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">BQ24073RGTR</field>
+        <field name="Mouser Part Number">595-BQ24073RGTR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ24073RGTR?qs=ZV%2Fxhq4oszqX%2F3rMt%2FwIsw%3D%3D</field>
+        <field name="Arrow Part Number">BQ24073RGTR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/bq24073rgtr/texas-instruments</field>
+        <field name="LCSC">C15220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TS" type="passive"/>
+        <pin num="2" name="BAT_1" type="passive"/>
+        <pin num="3" name="BAT_2" type="passive"/>
+        <pin num="4" name="~{CE}" type="passive"/>
+        <pin num="5" name="EN2" type="passive"/>
+        <pin num="6" name="EN1" type="passive"/>
+        <pin num="7" name="~{PGOOD}" type="passive"/>
+        <pin num="8" name="VSS" type="passive"/>
+        <pin num="9" name="~{CHG}" type="passive"/>
+        <pin num="10" name="OUT_1" type="passive"/>
+        <pin num="11" name="OUT_2" type="passive"/>
+        <pin num="12" name="ILIM" type="passive"/>
+        <pin num="13" name="IN" type="passive"/>
+        <pin num="14" name="TMR" type="passive"/>
+        <pin num="15" name="TD" type="passive"/>
+        <pin num="16" name="ISET" type="passive"/>
+        <pin num="17" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Drivers_JLC" part="XC6227C331MR-G">
+      <description>65dB@(1kHz) 700mA 200mV@(300mA) Fixed 3.3V~3.3V Positive 1 6V SOT-25 Linear Voltage Regulators (LDO) ROHS</description>
+      <docs>https://www.torexsemi.com/file/xc6227/XC6227.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">XC6227C331MR-G</field>
+        <field name="Footprint">SOT95P280X130-5N</field>
+        <field name="Datasheet">https://www.torexsemi.com/file/xc6227/XC6227.pdf</field>
+        <field name="Description">IC REG LINEAR 3.3V 700MA SOT25</field>
+        <field name="Height">1.3</field>
+        <field name="Manufacturer_Name">Torex</field>
+        <field name="Manufacturer_Part_Number">XC6227C331MR-G</field>
+        <field name="Mouser Part Number">865-XC6227C331MR-G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6227C331MR-G?qs=AsjdqWjXhJ8dqb1QLv06nA%3D%3D</field>
+        <field name="LCSC">C216640</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="VSS" type="passive"/>
+        <pin num="3" name="CE" type="passive"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_JLC" part="1.5k">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1.5k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="LCSC">C25867</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_JLC" part="100k">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="LCSC">C25741</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_JLC" part="10k">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_JLC" part="10k_NTC">
+      <description>10kΩ -40℃~+125℃ 3455K 0.1mA 3434K ±1% 3380K ±1% 0402 NTC Thermistors ROHS</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">10k_NTC</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="LCSC">C333993</field>
+        <field name="MPN">NCU15XH103F6SRC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_JLC" part="1k">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_JLC" part="2.2k">
+      <description>2.2K ±1% 1/16W ±100ppm/°C 0402 Chip Resistor - Surface Mount RoHS</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">2.2k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="LCSC">C25879</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_JLC" part="220k">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">220k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="LCSC">C25767</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_JLC" part="51k">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">51k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="LCSC">C25794</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_JLC" part="560k">
+      <description>CHIP RESISTOR - SURFACE MOUNT 560KOHMS ±1% 1/10W 0603 ROHS</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">560k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="LCSC">C23203</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensors_JLC" part="LSM6DSLTR">
+      <description>IMUs - Inertial Measurement Units CONSUMER MEMS</description>
+      <docs>https://www.st.com/resource/en/datasheet/lsm6dsl.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LSM6DSLTR</field>
+        <field name="Footprint">LSM6DSLTR</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/lsm6dsl.pdf</field>
+        <field name="Description">IMUs - Inertial Measurement Units CONSUMER MEMS</field>
+        <field name="Height">0.86</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">LSM6DSLTR</field>
+        <field name="Mouser Part Number">511-LSM6DSLTR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LSM6DSLTR?qs=dTJS0cRn7oit9g7CgtPlyQ%3D%3D</field>
+        <field name="Arrow Part Number">LSM6DSLTR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/lsm6dsltr/stmicroelectronics</field>
+        <field name="LCSC">C126672</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDO/SA0" type="passive"/>
+        <pin num="2" name="SDX" type="passive"/>
+        <pin num="3" name="SCX" type="passive"/>
+        <pin num="4" name="INT1" type="passive"/>
+        <pin num="5" name="VDDIO" type="passive"/>
+        <pin num="6" name="GND_1" type="passive"/>
+        <pin num="7" name="GND_2" type="passive"/>
+        <pin num="8" name="VDD" type="passive"/>
+        <pin num="9" name="INT2" type="passive"/>
+        <pin num="10" name="NC_1" type="passive"/>
+        <pin num="11" name="NC_2" type="passive"/>
+        <pin num="12" name="CS" type="passive"/>
+        <pin num="13" name="SCL" type="passive"/>
+        <pin num="14" name="SDA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switches_JLC" part="K3-1296S-E1">
+      <description>Toggle Switches SMD RoHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K3-1296S-E1_C128955.pdf</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">K3-1296S-E1</field>
+        <field name="Footprint">K31296SE1</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K3-1296S-E1_C128955.pdf</field>
+        <field name="Description">Toggle Switches SMD RoHS</field>
+        <field name="Height">1.6</field>
+        <field name="Manufacturer_Name">Korean Hroparts Elec</field>
+        <field name="Manufacturer_Part_Number">K3-1296S-E1</field>
+        <field name="LCSC">C128955</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+        <pin num="MP3" name="MP3" type="passive"/>
+        <pin num="MP4" name="MP4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_JLC" part="MUN5214DW1T1G">
+      <description>0.1A Ic, 50V Vce, Dual NPN Bias Resistor Transistors, SOT-363</description>
+      <docs>http://www.onsemi.com/pub/Collateral/DTC114ED-D.PDF</docs>
+      <footprints>
+        <fp>SOT*363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MUN5214DW1T1G</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/DTC114ED-D.PDF</field>
+        <field name="LCSC">C94403</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E2" type="passive"/>
+        <pin num="2" name="B2" type="input"/>
+        <pin num="3" name="C1" type="passive"/>
+        <pin num="4" name="E1" type="passive"/>
+        <pin num="5" name="B1" type="input"/>
+        <pin num="6" name="C2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB_JLC" part="CP2102N-A02-GQFN28R">
+      <description>USB Interface IC USB to UART bridge - QFN28</description>
+      <docs>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">CP2102N-A02-GQFN28R</field>
+        <field name="Footprint">QFN50P500X500X80-29N-D</field>
+        <field name="Datasheet">https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</field>
+        <field name="Description">USB Interface IC USB to UART bridge - QFN28</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Silicon Labs</field>
+        <field name="Manufacturer_Part_Number">CP2102N-A02-GQFN28R</field>
+        <field name="Mouser Part Number">634-CP2102NA02QFN28R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Silicon-Labs/CP2102N-A02-GQFN28R?qs=u16ybLDytRag4qKvSH3fTw%3D%3D</field>
+        <field name="Arrow Part Number">CP2102N-A02-GQFN28R</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cp2102n-a02-gqfn28r/silicon-labs</field>
+        <field name="LCSC">C6568</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DCD" type="passive"/>
+        <pin num="2" name="RI_/_CLK" type="passive"/>
+        <pin num="3" name="GND_1" type="passive"/>
+        <pin num="4" name="D+" type="passive"/>
+        <pin num="5" name="D-" type="passive"/>
+        <pin num="6" name="VDD" type="passive"/>
+        <pin num="7" name="VREGIN" type="passive"/>
+        <pin num="8" name="VBUS" type="passive"/>
+        <pin num="9" name="RSTB" type="passive"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="SUSPENDB" type="passive"/>
+        <pin num="12" name="SUSPEND" type="passive"/>
+        <pin num="13" name="CHREN" type="passive"/>
+        <pin num="14" name="CHR1" type="passive"/>
+        <pin num="15" name="CHR0" type="passive"/>
+        <pin num="16" name="GPIO.3_/_WAKEUP" type="passive"/>
+        <pin num="17" name="GPIO.2_/_RS485" type="passive"/>
+        <pin num="18" name="GPIO.1_/_RXT" type="passive"/>
+        <pin num="19" name="GPIO.0_/_TXT" type="passive"/>
+        <pin num="20" name="GPIO.6" type="passive"/>
+        <pin num="21" name="GPIO.5" type="passive"/>
+        <pin num="22" name="GPIO.4" type="passive"/>
+        <pin num="23" name="CTS" type="passive"/>
+        <pin num="24" name="RTS" type="passive"/>
+        <pin num="25" name="RXD" type="passive"/>
+        <pin num="26" name="TXD" type="passive"/>
+        <pin num="27" name="DSR" type="passive"/>
+        <pin num="28" name="DTR" type="passive"/>
+        <pin num="29" name="GND_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="TestPoint_Alt">
+      <description>test point (alternative shape)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_Alt</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BatteryHolder_JLC">
+      <uri>C:\Users\tooyi\OneDrive\KiCad/JLC/BatteryHolder_JLC.kicad_sym</uri>
+    </library>
+    <library logical="Button_JLC">
+      <uri>C:\Users\tooyi\OneDrive\KiCad/JLC/Button_JLC.kicad_sym</uri>
+    </library>
+    <library logical="Capacitor_JLC">
+      <uri>C:\Users\tooyi\OneDrive\KiCad/JLC/Capacitor_JLC.kicad_sym</uri>
+    </library>
+    <library logical="Connector_JLC">
+      <uri>C:\Users\tooyi\OneDrive\KiCad/JLC/Connector_JLC.kicad_sym</uri>
+    </library>
+    <library logical="Diode_JLC">
+      <uri>C:\Users\tooyi\OneDrive\KiCad/JLC/Diode_JLC.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="MCU_JLC">
+      <uri>C:\Users\tooyi\OneDrive\KiCad/JLC/MCU_JLC.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Power-Drivers_JLC">
+      <uri>C:\Users\tooyi\OneDrive\KiCad/JLC/Power-Drivers_JLC.kicad_sym</uri>
+    </library>
+    <library logical="Resistor_JLC">
+      <uri>C:\Users\tooyi\OneDrive\KiCad/JLC/Resistor_JLC.kicad_sym</uri>
+    </library>
+    <library logical="Sensors_JLC">
+      <uri>C:\Users\tooyi\OneDrive\KiCad/JLC/Sensors_JLC.kicad_sym</uri>
+    </library>
+    <library logical="Switches_JLC">
+      <uri>C:\Users\tooyi\OneDrive\KiCad/JLC/Switches_JLC.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_JLC">
+      <uri>C:\Users\tooyi\OneDrive\KiCad/JLC/Transistor_JLC.kicad_sym</uri>
+    </library>
+    <library logical="USB_JLC">
+      <uri>C:\Users\tooyi\OneDrive\KiCad/JLC/USB_JLC.kicad_sym</uri>
+    </library>
+    <library logical="personal">
+      <uri>C:\Users\tooyi\OneDrive\KiCad/personal.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="3V3" pintype="passive"/>
+      <node ref="IC2" pin="5" pinfunction="VOUT" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="IC3" pin="2" pinfunction="BAT_1" pintype="passive"/>
+      <node ref="IC3" pin="3" pinfunction="BAT_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/Battery Charger/BAT">
+      <node ref="IC1" pin="19" pinfunction="IO5" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/Battery Charger/READ_BAT">
+      <node ref="IC1" pin="18" pinfunction="IO4" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/Battery Charger/VUSB">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D6" pin="2" pintype="passive"/>
+      <node ref="IC5" pin="7" pinfunction="VREGIN" pintype="passive"/>
+      <node ref="IC5" pin="8" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/IMU/6D_INT1">
+      <node ref="IC1" pin="13" pinfunction="IO1" pintype="passive"/>
+      <node ref="IC4" pin="4" pinfunction="INT1" pintype="passive"/>
+    </net>
+    <net code="7" name="/IMU/6D_INT2">
+      <node ref="IC1" pin="5" pinfunction="IO2" pintype="passive"/>
+      <node ref="IC4" pin="9" pinfunction="INT2" pintype="passive"/>
+    </net>
+    <net code="8" name="/IMU/6D_PWR">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="12" pinfunction="IO0" pintype="passive"/>
+      <node ref="IC4" pin="5" pinfunction="VDDIO" pintype="passive"/>
+      <node ref="IC4" pin="8" pinfunction="VDD" pintype="passive"/>
+    </net>
+    <net code="9" name="/IMU/I2C_SCL">
+      <node ref="IC1" pin="20" pinfunction="IO6" pintype="passive"/>
+      <node ref="IC4" pin="13" pinfunction="SCL" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="/IMU/I2C_SDA">
+      <node ref="IC1" pin="21" pinfunction="IO7" pintype="passive"/>
+      <node ref="IC4" pin="14" pinfunction="SDA" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="/Microcontroller/DTR">
+      <node ref="IC5" pin="28" pinfunction="DTR" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="B2" pintype="input"/>
+      <node ref="Q1" pin="4" pinfunction="E1" pintype="passive"/>
+    </net>
+    <net code="12" name="/Microcontroller/RTS">
+      <node ref="IC5" pin="24" pinfunction="RTS" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E2" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="B1" pintype="input"/>
+    </net>
+    <net code="13" name="/Microcontroller/U0RXD">
+      <node ref="IC1" pin="30" pinfunction="RXD0" pintype="passive"/>
+      <node ref="IC5" pin="26" pinfunction="TXD" pintype="passive"/>
+    </net>
+    <net code="14" name="/Microcontroller/U0TXD">
+      <node ref="IC1" pin="31" pinfunction="TXD0" pintype="passive"/>
+      <node ref="IC5" pin="25" pinfunction="RXD" pintype="passive"/>
+    </net>
+    <net code="15" name="CHIP_PU">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="EN" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="C2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="S2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="IC1" pin="11" pinfunction="GND_3" pintype="passive"/>
+      <node ref="IC1" pin="14" pinfunction="GND_4" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="IC1" pin="36" pinfunction="GND_5" pintype="passive"/>
+      <node ref="IC1" pin="37" pinfunction="GND_6" pintype="passive"/>
+      <node ref="IC1" pin="38" pinfunction="GND_7" pintype="passive"/>
+      <node ref="IC1" pin="39" pinfunction="GND_8" pintype="passive"/>
+      <node ref="IC1" pin="40" pinfunction="GND_9" pintype="passive"/>
+      <node ref="IC1" pin="41" pinfunction="GND_10" pintype="passive"/>
+      <node ref="IC1" pin="42" pinfunction="GND_11" pintype="passive"/>
+      <node ref="IC1" pin="43" pinfunction="GND_12" pintype="passive"/>
+      <node ref="IC1" pin="44" pinfunction="GND_13" pintype="passive"/>
+      <node ref="IC1" pin="45" pinfunction="GND_14" pintype="passive"/>
+      <node ref="IC1" pin="46" pinfunction="GND_15" pintype="passive"/>
+      <node ref="IC1" pin="47" pinfunction="GND_16" pintype="passive"/>
+      <node ref="IC1" pin="48" pinfunction="GND_17" pintype="passive"/>
+      <node ref="IC1" pin="49" pinfunction="GND_18" pintype="passive"/>
+      <node ref="IC1" pin="50" pinfunction="GND_19" pintype="passive"/>
+      <node ref="IC1" pin="51" pinfunction="GND_20" pintype="passive"/>
+      <node ref="IC1" pin="52" pinfunction="GND_21" pintype="passive"/>
+      <node ref="IC1" pin="53" pinfunction="GND_22" pintype="passive"/>
+      <node ref="IC1" pin="54" pinfunction="GND_23" pintype="passive"/>
+      <node ref="IC1" pin="55" pinfunction="GND_24" pintype="passive"/>
+      <node ref="IC1" pin="56" pinfunction="GND_25" pintype="passive"/>
+      <node ref="IC1" pin="57" pinfunction="GND_26" pintype="passive"/>
+      <node ref="IC1" pin="58" pinfunction="GND_27" pintype="passive"/>
+      <node ref="IC1" pin="59" pinfunction="GND_28" pintype="passive"/>
+      <node ref="IC1" pin="60" pinfunction="GND_29" pintype="passive"/>
+      <node ref="IC1" pin="61" pinfunction="GND_30" pintype="passive"/>
+      <node ref="IC2" pin="2" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC3" pin="17" pinfunction="EP" pintype="passive"/>
+      <node ref="IC3" pin="8" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC4" pin="6" pinfunction="GND_1" pintype="passive"/>
+      <node ref="IC4" pin="7" pinfunction="GND_2" pintype="passive"/>
+      <node ref="IC5" pin="11" pinfunction="SUSPENDB" pintype="passive"/>
+      <node ref="IC5" pin="29" pinfunction="GND_2" pintype="passive"/>
+      <node ref="IC5" pin="3" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="S2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TH1" pin="2" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="GPIO8">
+      <node ref="IC1" pin="22" pinfunction="IO8" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="GPIO9">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="23" pinfunction="IO9" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C1" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="19" name="IND_LED">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="IO3" pintype="passive"/>
+    </net>
+    <net code="20" name="MCU_DM">
+      <node ref="IC1" pin="26" pinfunction="IO18" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="21" name="MCU_DP">
+      <node ref="IC1" pin="27" pinfunction="IO19" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC3" pin="7" pinfunction="~{PGOOD}" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D5-K)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC3" pin="9" pinfunction="~{CHG}" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(IC2-CE)">
+      <node ref="IC2" pin="3" pinfunction="CE" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(IC3-EN1)">
+      <node ref="IC3" pin="6" pinfunction="EN1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(IC3-EN2)">
+      <node ref="IC3" pin="5" pinfunction="EN2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(IC3-ILIM)">
+      <node ref="IC3" pin="12" pinfunction="ILIM" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(IC3-IN)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="13" pinfunction="IN" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(IC3-ISET)">
+      <node ref="IC3" pin="16" pinfunction="ISET" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(IC3-OUT_1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="10" pinfunction="OUT_1" pintype="passive"/>
+      <node ref="IC3" pin="11" pinfunction="OUT_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="S3" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(IC3-TD)">
+      <node ref="IC3" pin="15" pinfunction="TD" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(IC3-TMR)">
+      <node ref="IC3" pin="14" pinfunction="TMR" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(IC3-TS)">
+      <node ref="IC3" pin="1" pinfunction="TS" pintype="passive"/>
+      <node ref="TH1" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(IC3-~{CE})">
+      <node ref="IC3" pin="4" pinfunction="~{CE}" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(IC5-RSTB)">
+      <node ref="IC5" pin="9" pinfunction="RSTB" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(IC5-VDD)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="IC5" pin="6" pinfunction="VDD" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(JP1-C)">
+      <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="JP1" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(JP2-C)">
+      <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="JP2" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="43" name="UART_DM">
+      <node ref="IC5" pin="5" pinfunction="D-" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="44" name="UART_DP">
+      <node ref="IC5" pin="4" pinfunction="D+" pintype="passive"/>
+      <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="45" name="VDD">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="IC2" pin="1" pinfunction="VIN" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="S3" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="46" name="unconnected-(IC1-IO10-Pad16)">
+      <node ref="IC1" pin="16" pinfunction="IO10" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(IC1-NC_1-Pad4)">
+      <node ref="IC1" pin="4" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(IC1-NC_2-Pad7)">
+      <node ref="IC1" pin="7" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(IC1-NC_3-Pad9)">
+      <node ref="IC1" pin="9" pinfunction="NC_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(IC1-NC_4-Pad10)">
+      <node ref="IC1" pin="10" pinfunction="NC_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(IC1-NC_5-Pad15)">
+      <node ref="IC1" pin="15" pinfunction="NC_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(IC1-NC_6-Pad17)">
+      <node ref="IC1" pin="17" pinfunction="NC_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(IC1-NC_7-Pad24)">
+      <node ref="IC1" pin="24" pinfunction="NC_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(IC1-NC_8-Pad25)">
+      <node ref="IC1" pin="25" pinfunction="NC_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(IC1-NC_9-Pad28)">
+      <node ref="IC1" pin="28" pinfunction="NC_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(IC1-NC_10-Pad29)">
+      <node ref="IC1" pin="29" pinfunction="NC_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(IC1-NC_11-Pad32)">
+      <node ref="IC1" pin="32" pinfunction="NC_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(IC1-NC_12-Pad33)">
+      <node ref="IC1" pin="33" pinfunction="NC_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(IC1-NC_13-Pad34)">
+      <node ref="IC1" pin="34" pinfunction="NC_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(IC1-NC_14-Pad35)">
+      <node ref="IC1" pin="35" pinfunction="NC_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(IC2-NC-Pad4)">
+      <node ref="IC2" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(IC4-CS-Pad12)">
+      <node ref="IC4" pin="12" pinfunction="CS" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(IC4-NC_1-Pad10)">
+      <node ref="IC4" pin="10" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(IC4-NC_2-Pad11)">
+      <node ref="IC4" pin="11" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(IC4-SCX-Pad3)">
+      <node ref="IC4" pin="3" pinfunction="SCX" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(IC4-SDO{slash}SA0-Pad1)">
+      <node ref="IC4" pin="1" pinfunction="SDO/SA0" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(IC4-SDX-Pad2)">
+      <node ref="IC4" pin="2" pinfunction="SDX" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(IC5-CHR0-Pad15)">
+      <node ref="IC5" pin="15" pinfunction="CHR0" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(IC5-CHR1-Pad14)">
+      <node ref="IC5" pin="14" pinfunction="CHR1" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(IC5-CHREN-Pad13)">
+      <node ref="IC5" pin="13" pinfunction="CHREN" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(IC5-CTS-Pad23)">
+      <node ref="IC5" pin="23" pinfunction="CTS" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(IC5-DCD-Pad1)">
+      <node ref="IC5" pin="1" pinfunction="DCD" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(IC5-DSR-Pad27)">
+      <node ref="IC5" pin="27" pinfunction="DSR" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(IC5-GPIO.0_{slash}_TXT-Pad19)">
+      <node ref="IC5" pin="19" pinfunction="GPIO.0_/_TXT" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(IC5-GPIO.1_{slash}_RXT-Pad18)">
+      <node ref="IC5" pin="18" pinfunction="GPIO.1_/_RXT" pintype="passive+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(IC5-GPIO.2_{slash}_RS485-Pad17)">
+      <node ref="IC5" pin="17" pinfunction="GPIO.2_/_RS485" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(IC5-GPIO.3_{slash}_WAKEUP-Pad16)">
+      <node ref="IC5" pin="16" pinfunction="GPIO.3_/_WAKEUP" pintype="passive+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(IC5-GPIO.4-Pad22)">
+      <node ref="IC5" pin="22" pinfunction="GPIO.4" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(IC5-GPIO.5-Pad21)">
+      <node ref="IC5" pin="21" pinfunction="GPIO.5" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(IC5-GPIO.6-Pad20)">
+      <node ref="IC5" pin="20" pinfunction="GPIO.6" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(IC5-NC-Pad10)">
+      <node ref="IC5" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(IC5-RI_{slash}_CLK-Pad2)">
+      <node ref="IC5" pin="2" pinfunction="RI_/_CLK" pintype="passive+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(IC5-SUSPEND-Pad12)">
+      <node ref="IC5" pin="12" pinfunction="SUSPEND" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(J1-CC1-PadA5)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(J1-CC2-PadB5)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(J1-SBU1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(J1-SBU2-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(S3-C-Pad3)">
+      <node ref="S3" pin="3" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(S3-PadMP1)">
+      <node ref="S3" pin="MP1" pinfunction="MP1" pintype="passive+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(S3-PadMP2)">
+      <node ref="S3" pin="MP2" pinfunction="MP2" pintype="passive+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(S3-PadMP3)">
+      <node ref="S3" pin="MP3" pinfunction="MP3" pintype="passive+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(S3-PadMP4)">
+      <node ref="S3" pin="MP4" pinfunction="MP4" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

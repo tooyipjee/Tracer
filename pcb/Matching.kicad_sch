@@ -1,0 +1,30 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 70180bc7-602d-4fcb-a38a-f1e218625a27)
+
+  (paper "A3")
+
+  (title_block
+    (title "Tracer")
+    (date "2022-03-21")
+    (rev "B")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "To match 30/35+10j to 50 Ohm" (at 134.62 71.755 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e61630e7-2ece-4c2d-ad24-b648dd848684)
+  )
+
+  (hierarchical_label "LNA_OUT" (shape input) (at 187.325 95.885 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 73c1b947-11e9-40cf-af03-56c22766304e)
+  )
+  (hierarchical_label "LNA_IN" (shape input) (at 122.555 95.885 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 9a32d5f7-7c91-42ee-9682-839073c2c85d)
+  )
+)
